@@ -19,7 +19,7 @@ public class DesafioComponentesInjecaoApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		Order order = new Order(1034, 95.90, 0d);
+		Order order = new Order(1034, 800d, 10d);
 
 
 		System.out.println("Pedido código: " + order.getCod());
